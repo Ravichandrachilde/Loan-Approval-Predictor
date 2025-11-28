@@ -8,3 +8,4 @@ joblib==1.4.2
 huggingface_hub==0.25.1
 matplotlib==3.9.2
 seaborn==0.13.2
+streamlit-shap
