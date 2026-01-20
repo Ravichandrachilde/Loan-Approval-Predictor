@@ -1,11 +1,8 @@
 # 🏦 Loan Approval Prediction System
 
-[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://huggingface.co/spaces/Ravichandrachilde/loan-prediction-XGB)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-
 XGBoost classifier predicting loan approvals with **99.3% accuracy** and SHAP-based explanations.
 
-**[🚀 Live Demo](https://huggingface.co/spaces/Ravichandrachilde/loan-prediction-XGB)**
+**([Live Demo](https://huggingface.co/spaces/Ravichandrachilde/loan-predictor-XAI))**
 
 ---
 
@@ -44,7 +41,7 @@ Automates loan approval decisions while providing transparent explanations for r
 | Random Forest | 99.53% | 1.00 | 0.99 | 0.47% |
 | **XGBoost** ✓ | **99.30%** | **1.00** | **0.98** | **0.70%** |
 
-**Selected XGBoost** for better generalization and SHAP integration despite slightly lower accuracy.
+**Selected XGBoost** for better generalization and SHAP integration.
 
 ---
 
@@ -66,7 +63,7 @@ Automates loan approval decisions while providing transparent explanations for r
 
 ## Deployment
 
-**Streamlit App** ([live](https://huggingface.co/spaces/Ravichandrachilde/loan-prediction-XGB)):
+**Streamlit App** ([live](https://huggingface.co/spaces/Ravichandrachilde/loan-predictor-XAI)):
 - Real-time predictions with confidence scores
 - Interactive SHAP force plots explaining each decision
 - Model hosted on Hugging Face Hub
@@ -100,7 +97,6 @@ streamlit run app/streamlit_app.py
 loan-predictor/
 ├── notebook/loan_prediction.ipynb    # Training pipeline
 ├── app/streamlit_app.py              # Deployment
-├── models/loan_model.joblib          # Trained model
 └── data/loan_data.csv                # Dataset
 ```
 
